@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+ width: 50%;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ margin: 100px auto;
+ position: relative;
+ grid-gap: 15px;
+
+}
+input{
+  font-size: 17px;
+}
+label{
+  font-size: 25px;
+}
+input[type="password"],input[type="text"],input[type="email"]{
+  padding: 7px;
+  border-radius: 4px;
+}
+select{
+  padding: 7px; 
+  font-size: 17px;
+}
+input[type="submit"]{
+  margin-top: 25px;
+  position: absolute;
+  right: 50%; 
+  padding: 10px;
+  width: 105px;
+  background-color: rgb(18, 160, 216);
+  border-radius: 4px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  padding: 25px;
+}
